@@ -143,7 +143,9 @@ def build_receipt(items):
     Chips x1 = $2.25
     TOTAL = $5.25
     """
-    raise NotImplementedError
+    return receipt_line(items(2),items(1))
+
+
 
 
 # ============================================================
