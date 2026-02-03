@@ -144,6 +144,8 @@ def build_receipt(items):
     TOTAL = $5.25
     """
     return receipt_line(items(2),items(1))
+if is_even(2) is True:
+    assert is_even(3) is True
 
 
 
